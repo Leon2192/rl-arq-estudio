@@ -17,7 +17,7 @@ const page = () => {
       <Grid.Container
         gap={2}
         css={{
-          marginTop: "33pz",
+          marginTop: "33px",
         }}
       >
         <Grid xs={12} sm={12}>

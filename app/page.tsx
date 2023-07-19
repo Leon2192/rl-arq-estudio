@@ -106,6 +106,7 @@ export default function Home() {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center",
+              marginTop: "45px",
             }}
           >
             <Grid xs={12} sm={6} alignItems="center">

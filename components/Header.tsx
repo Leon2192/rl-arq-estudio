@@ -23,7 +23,7 @@ const Header = () => {
       {/*Navbar */}
       {
         <Navbar variant={"static"}>
-          <Navbar.Content hideIn="md">
+          <Navbar.Content>
             <Navbar.Link href="#"> </Navbar.Link>
             <Navbar.Link href="#productos"> </Navbar.Link>
             <Navbar.Link href="#footer"> </Navbar.Link>
@@ -54,18 +54,9 @@ const Header = () => {
             />
           </Link>
         </Navbar.Brand>
-        <Navbar.Content hideIn="md">
+        <Navbar.Content>
           <Link
-            href={"/camaras"}
-            style={{
-              color: "white",
-            }}
-          >
-            Sericios
-          </Link>
-
-          <Link
-            href={"/aplicaciones"}
+            href={"/nosotros"}
             style={{
               color: "white",
             }}
@@ -74,7 +65,16 @@ const Header = () => {
           </Link>
 
           <Link
-            href={"https://www.shopnow.com.ar/listado/camaras-accesorios/"}
+            href={"/servicios"}
+            style={{
+              color: "white",
+            }}
+          >
+            Servicios
+          </Link>
+
+          <Link
+            href={"/contacto"}
             style={{
               color: "white",
             }}
@@ -104,12 +104,7 @@ const Header = () => {
            */}
         </Navbar.Content>
 
-        <Navbar.Content>
-          <Navbar.Link href="#">Ingresar</Navbar.Link>
-          <Navbar.Item>
-            <BsFillCartFill />
-          </Navbar.Item>
-        </Navbar.Content>
+       
       </Navbar>
     </Container>
   );
